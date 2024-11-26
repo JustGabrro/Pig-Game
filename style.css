@@ -179,7 +179,7 @@ main {
 
   main {
     width: 95%;
-    height: 65rem;
+    height: 55rem;
     padding: 1.5rem;
   }
 
@@ -226,11 +226,11 @@ main {
 
 }
 
-/* Iphone SE */
+/* Iphone 12 Pro */
 @media (min-width: 389px) and (max-width: 412px) {
   main {
     width: 95%;
-    height: 83rem;
+    height: 75rem;
     padding: 1.5rem;
   }
 
@@ -254,14 +254,14 @@ main {
 }
 
 /* Iphone XR */
-@media (min-width: 413px) and (max-width: 415px) {
+@media (min-width: 413px) and (max-width: 430px) {
   body {
     font-size: 45%;
   }
 
   main {
     width: 95%;
-    height: 87rem;
+    height: 80rem;
     padding: 1.5rem;
   }
 
@@ -309,7 +309,7 @@ main {
 }
 
 /* Iphone 14 Pro Max */
-@media (min-width: 430px) and (max-width: 431px) {
+@media (min-width: 430px) and (max-width: 768px) {
   body {
     font-size: 65%;
   }
@@ -317,7 +317,7 @@ main {
   main {
     width: 95%;
     padding: 1.5rem;
-    height: 90rem;
+    height: 83rem;
   }
 
   .player {
@@ -361,3 +361,72 @@ main {
   }
 
 }
+
+@media (min-width: 450px) and (max-width: 768px) {
+  body {
+    font-size: 62.5%;
+  }
+
+  main {
+    width: 95%;
+    height: 70rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .player {
+    flex: 1;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+
+  .current {
+    width: 70%;
+    padding: 2rem;
+  }
+
+  .current-score {
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 0.7rem 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .btn--new {
+    top: 3rem;
+  }
+
+  .btn--roll {
+    top: 37rem;
+  }
+
+  .btn--hold {
+    top: 44rem;
+  }
+
+  .dice {
+    position: absolute;
+    left: 50%;
+    top: 15rem;
+    transform: translateX(-50%);
+    height: 8rem;
+  }
+}
+
