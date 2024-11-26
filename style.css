@@ -230,7 +230,7 @@ main {
 @media (min-width: 389px) and (max-width: 412px) {
   main {
     width: 95%;
-    height: 75rem;
+    height: 70rem;
     padding: 1.5rem;
   }
 
@@ -261,7 +261,7 @@ main {
 
   main {
     width: 95%;
-    height: 80rem;
+    height: 75rem;
     padding: 1.5rem;
   }
 
@@ -317,7 +317,7 @@ main {
   main {
     width: 95%;
     padding: 1.5rem;
-    height: 83rem;
+    height: 75rem;
   }
 
   .player {
